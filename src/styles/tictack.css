@@ -1,0 +1,41 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 25%;
+    margin: auto;
+    margin-top: 10%;
+  border: 1px solid rgb(194, 47, 47);
+    gap: none;
+    height: 270px;
+    box-shadow: 0 0 10px;
+
+}
+.square{
+    background-color: rgb(180, 234, 237);
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+    width: 100%;
+    height: 90px;
+}
+.square:hover{
+    background-color: rgb(128, 220, 232);
+
+}
+.btn{
+ margin-top: auto;
+ padding: 16px;
+ background-color: rgb(128, 220, 232);
+ box-shadow: 0 0 7px;
+ width: 200px;
+ margin-top: 40px;
+ border: none;
+ border-radius: 5px;
+
+}
+.btn:hover{
+ border-radius: 5px;
+  background-color: rgb(80, 159, 169);;
+}
+.box{
+    font-size: 20px;
+}
